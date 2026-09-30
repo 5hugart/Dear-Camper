@@ -5,6 +5,14 @@
 # Recommended: add any editor/OS/tool-specific ignore rules from the Global/ templates as needed.
 # See: https://github.com/github/gitignore/tree/main/Global
 #
+# Unity + GitHub Desktop fixes - Plastic leftovers, recovery backups
+.plastic/
+ignore.conf
+/[Aa]ssets/_Recovery/
+/[Aa]ssets/_TerrainAutoUpgrade/
+*.blend1
+*.blend1.meta
+
 .utmp/
 /[Ll]ibrary/
 /[Tt]emp/
